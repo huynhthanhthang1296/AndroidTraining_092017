@@ -4,17 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#c78f8f"
-    tools:context="com.example.sony.training.MainActivity">
+    tools:context="com.example.sony.training.LoginSuccesActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Xin chào"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/dp_226"
+        android:text="Login thành công"
         android:textSize="40sp"
+        android:layout_centerInParent="true"
         android:textStyle="bold"/>
 
 </RelativeLayout>
